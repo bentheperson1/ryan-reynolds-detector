@@ -26,5 +26,5 @@ while True:
             nbr_predicted = "Not Ryan >:(((((("
         cv2.putText(im, str(nbr_predicted),
                     (x, y+h), font, 1.1, (255, 255, 255))  # Draw the text
-        cv2.imshow('RYAN!!!!!!', im)
-        cv2.waitKey(1)
+    cv2.imshow('RYAN!!!!!!', im)
+    cv2.waitKey(1)

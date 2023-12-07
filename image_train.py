@@ -7,8 +7,7 @@ path = os.path.dirname(os.path.abspath(__file__))
 recognizer = cv2.face.LBPHFaceRecognizer_create()
 cascadePath = "haarcascade_frontalface_default.xml"
 faceCascade = cv2.CascadeClassifier(cascadePath)
-dataPath = path+r'\model_images/ryan_reynolds'
-
+dataPath = path+r'/model_images/ryan_reynolds'
 
 def get_images_and_labels(datapath):
     image_paths = [os.path.join(datapath, f) for f in os.listdir(datapath)]
